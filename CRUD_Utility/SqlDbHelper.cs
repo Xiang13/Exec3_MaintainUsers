@@ -14,7 +14,7 @@ namespace CRUD_Utility
 		/// <summary>
 		/// 
 		/// </summary>
-		/// <param name="keyOfconnString">app.config裡的值, 例如"default"</param></param>
+		/// <param name="keyOfconnString">app.config裡的值, 例如"default"</param>
 		public SqlDbHelper(string keyOfconnString)
 		{
 			connString = System.Configuration.ConfigurationManager.ConnectionStrings[keyOfconnString].ConnectionString;
